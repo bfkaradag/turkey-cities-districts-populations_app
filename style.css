@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    background: url(bg.jpg);
+    background-size: 400px;
+    box-shadow: inset -200px -32px 133px -19px rgba(0,0,0,0.75),  inset 200px -32px 133px -19px rgba(0,0,0,0.75);;
+    font-size:20px;    
+    color:#242423;
+} 
+
+.container{
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+#search{
+    width: 100%;
+    margin-top:1em;
+    border: 0;
+    border-radius: 0.2rem;
+    font-size:1.5em;
+    padding: 1rem 1.5rem;
+    border: 6px solid #cfdbd5;
+    text-align: center;
+}
+#search:focus{
+    outline: none;
+}
+
+li{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8eddf;
+    list-style:none;
+    border-left: 0.2em solid #cfdbd5;
+    border-bottom:0.2em solid #cfdbd5;;
+    border-right: 0.2em solid #cfdbd5;
+    padding:1.2em;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: width 1s;
+}
+li:hover{
+    width: 450px;
+}
+
+.population{
+    font-size:0.7em;
+    font-weight: 200;
+    color:#333533;
+    bottom:0;
+}
+.hl{
+    background-color: coral;
+}
